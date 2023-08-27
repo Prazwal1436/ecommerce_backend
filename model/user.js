@@ -17,6 +17,20 @@ const UserSchema = new Schema({
         type:String,
         required:true,
         select:false,
+    },
+    first_name:{
+        type:String,
+        required:true,
+    },
+    last_name:{
+        type:String,
+        required:true,
+    },
+    phone_no:{
+        type:String,
+    },
+    dob:{
+        type: Date,
     }
 });
 
